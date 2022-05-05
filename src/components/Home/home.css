@@ -1,0 +1,48 @@
+.homepageGrid {
+    padding: 4% 8% 0;
+    margin-bottom : 5%;
+}
+
+.sectionHeading {
+    font-size: 28px;
+    font-weight: 600;
+    opacity: 0.8;
+    margin: 28px 0;
+    color: #b30000;
+}
+
+.productGrid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+
+/* Responsive Styles */
+
+@media (max-width: 479px) {
+    .homepageGrid {
+        padding-right: 3%;
+        padding-left: 3%;
+    }
+
+    .sectionHeading {
+        font-size: 24px;
+        margin: 14px 0;
+    }
+
+    .productGrid {
+        justify-content: center;
+    }
+    
+    .productCard {
+        max-width: 48%;
+    }
+
+    .productCard > button {
+        padding: 6px 10px;
+        font-size: 16px;
+        margin-top: 5px;
+    }
+}
+
